@@ -46,7 +46,7 @@ body>.#{$namespace}progressbar{
     // top: 0;
     top: $bar-base-height;//默认应该在title bar下方显示
     z-index: z("max");
-    border-radius: 0;
+    border-radius: 2px;
 }
 // Animations
 .#{$namespace}progressbar-in {

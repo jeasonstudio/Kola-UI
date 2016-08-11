@@ -10,7 +10,7 @@
     // border: $border-default;
     background-clip:padding-box;
     border-radius: $card-border-radius;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
     position: relative;
     font-size: $card-font-size;
 }
@@ -117,7 +117,7 @@
 }
 
 .#{$namespace}card-header {
-    border-radius: 2px 2px 0 0;
+    border-radius: 4px 4px 0 0;
     font-size: $font-size-default;
     &:after {
         top: auto;
@@ -133,7 +133,7 @@
 }
 
 .#{$namespace}card-footer {
-    border-radius: 0 0 2px 2px;
+    border-radius: 0 0 4px 4px;
     color: $card-footer-color;
 }
 

@@ -42,7 +42,7 @@ input[type="color"] {
     line-height: $line-height-default;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 3px;
+    border-radius: 6px;
     outline: none;
     -webkit-user-select: text;
 }
@@ -326,7 +326,7 @@ select {
         margin: 17px 0;
         background-color: #999;
         height: 2px;
-        border-radius: 3px;
+        border-radius: 6px;
         position: relative;
         width:100%;
     }

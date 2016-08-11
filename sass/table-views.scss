@@ -96,7 +96,7 @@
         padding-left: 58px;
     }
     &.#{$namespace}active {
-        background-color: #eee;
+        background-color: #BBBBBB;
 //      >.#{$namespace}slider-cell{
 //          >.#{$namespace}slider-left ~ .#{$namespace}slider-handle,>.#{$namespace}slider-right ~ .#{$namespace}slider-handle{
 //              background-color:#eee;
@@ -124,7 +124,7 @@
             background-color: #eee;
         }*/
         &.#{$namespace}active {
-            background-color: #eee;
+            background-color: #999999;
         }
     }
     p {
@@ -193,7 +193,7 @@
         >.#{$namespace}btn{
           padding: 0 30px;
           color: #fff;
-          border-radius:0;
+          border-radius:2px;
           border:0;
 //        background: #c7c7cc;
           display: -webkit-box;
